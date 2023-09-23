@@ -19,11 +19,11 @@ const schema = new mongoose.Schema({
     type: String,
     required: [true, 'A tour most have a difficulty'],
   },
-  ratingAverage: {
+  ratingsAverage: {
     type: Number,
     default: 4.5,
   },
-  ratingQuantity: {
+  ratingsQuantity: {
     type: Number,
     default: 0,
   },
